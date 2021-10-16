@@ -15,8 +15,6 @@ class Solution:
                     arr[j] = arr[j-1]
                     j -= 1
                     
-                if i+1 < n:
-                    arr[i+1] = 0
                 i += 2
                 continue
             i += 1
